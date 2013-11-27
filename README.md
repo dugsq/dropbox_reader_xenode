@@ -1,7 +1,7 @@
 dropbox-reader-xenode
 =====================
 
-**Dropbox Reader Xenode** monitors a specific file on Dropbox and pass it downstream to its children. It leverages the "dropbox-sdk" RubyGem to perform the file read operation. The Xenode will write the file to a local temporary folder by default, but it can also store the content of the file within message data for convenience (requires code change).
+**Dropbox Reader Xenode** monitors a specific file on Dropbox, fetches the file and pass it downstream to its children. It leverages the "dropbox-sdk" RubyGem to perform the file read operation. The Xenode will write the file to a local temporary folder by default, but it can also store the content of the file within message data for convenience (requires code change).
 
 ###Config file options:###
 * loop_delay: defines number of seconds the Xenode waits before running the Xenode process. Expects a float. 

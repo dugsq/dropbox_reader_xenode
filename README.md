@@ -1,4 +1,4 @@
-dropbox-reader-xenode
+Dropbox Reader Xenode
 =====================
 
 **Dropbox Reader Xenode** monitors a specific file on Dropbox, fetches the file and pass it downstream to its children. It leverages the "dropbox-sdk" RubyGem to perform the file read operation. The Xenode will write the file to a local temporary folder by default, but it can also store the content of the file within message data for convenience (requires code change).

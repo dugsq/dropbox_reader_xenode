@@ -1,6 +1,8 @@
 Dropbox Reader Xenode
 =====================
 
+Note: you will need the Xenograte Community Toolkit (XCT) to run this Xenode. Refer to the XCT repo [https://github.com/Nodally/xenograte-xct](https://github.com/Nodally/xenograte-xct) for more information.
+
 **Dropbox Reader Xenode** monitors a specific file on Dropbox, fetches the file and pass it downstream to its children. It leverages the "dropbox-sdk" RubyGem to perform the file read operation. The Xenode will write the file to a local temporary folder by default, but it can also store the content of the file within message data for convenience (requires code change).
 
 ###Config file options:###
